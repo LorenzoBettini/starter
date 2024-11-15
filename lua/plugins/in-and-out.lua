@@ -6,7 +6,8 @@ return {
       function()
         require("in-and-out").in_and_out()
       end,
-      mode = "i",
+      mode = { "i" },
+      desc = "In and Out",
     },
   },
 }
