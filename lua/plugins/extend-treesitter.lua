@@ -4,6 +4,7 @@ return {
     -- add parsers, without replacing the default ones
     vim.list_extend(opts.ensure_installed, {
       "java",
+      "editorconfig",
     })
   end,
 }
