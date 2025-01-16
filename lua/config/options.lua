@@ -3,7 +3,8 @@
 -- Add any additional options here
 vim.opt.winbar = "%=%m %f"
 
-vim.opt.expandtab = false -- Use spaces instead of tabs
+-- set it on a per file basis
+-- vim.opt.expandtab = false -- Use spaces instead of tabs
 
 vim.opt.scrolloff = 999 -- Lines of context; high value keep the cursor centered vertically in the screen
 
