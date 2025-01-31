@@ -6,3 +6,11 @@ SUT
 whitespace
 YAML
 JDK
+VCS
+SonarCloud
+JaCoCo
+lifecycle
+macOS
+unassociated
+LTS
+JDKs
