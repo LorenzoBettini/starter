@@ -10,7 +10,6 @@ vim.api.nvim_create_autocmd("FocusGained", {
     local add_file = config_path .. "/spell/en.utf-8.add"
     local spl_file = config_path .. "/spell/en.utf-8.add.spl"
 
-    -- Check if both files exist
     if vim.fn.filereadable(add_file) == 1 then
       local add_mtime = vim.fn.getftime(add_file) -- Get modification time of .add file
       local spl_mtime = vim.fn.getftime(spl_file) -- Get modification time of .add.spl file
