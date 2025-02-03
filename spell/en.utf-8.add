@@ -14,3 +14,7 @@ macOS
 unassociated
 LTS
 JDKs
+Dependabot
+groupId
+artifactId
+rebasing
