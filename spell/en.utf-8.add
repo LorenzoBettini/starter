@@ -18,3 +18,8 @@ Dependabot
 groupId
 artifactId
 rebasing
+SonarQube
+H2
+PostgreSQL
+BDD
+serializable
