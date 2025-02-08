@@ -23,3 +23,8 @@ H2
 PostgreSQL
 BDD
 serializable
+deserialized
+WindowBuilder
+AssertJ
+Log4J
+failsafe
