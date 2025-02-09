@@ -28,3 +28,6 @@ WindowBuilder
 AssertJ
 Log4J
 failsafe
+E2E
+SonarLint
+IDEs
