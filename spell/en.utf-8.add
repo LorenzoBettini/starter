@@ -45,3 +45,4 @@ virtualization
 localhost
 Testcontainers
 Mockito
+Picocli
