@@ -5,6 +5,8 @@ vim.opt.winbar = "%=%m %f"
 
 -- set it on a per file basis
 -- vim.opt.expandtab = false -- Use spaces instead of tabs
+vim.opt.tabstop = 4 -- Number of spaces tabs count for
+vim.opt.shiftwidth = 4 -- Size of an indent
 
 vim.opt.scrolloff = 7 -- Lines of context; high value keep the cursor centered vertically in the screen
 
