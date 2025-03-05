@@ -6,6 +6,7 @@ return {
       "java",
       "editorconfig",
       "dockerfile",
+      "bibtex",
     })
   end,
 }
