@@ -47,3 +47,7 @@ Testcontainers
 Mockito
 Picocli
 xUnit
+dotfiles
+bibtex
+LazyVim
+vimtex
