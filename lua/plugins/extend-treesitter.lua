@@ -7,6 +7,7 @@ return {
       "editorconfig",
       "dockerfile",
       "bibtex",
+      "latex",
     })
   end,
 }
