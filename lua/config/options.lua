@@ -13,3 +13,6 @@ vim.opt.scrolloff = 7 -- Lines of context; high value keep the cursor centered v
 -- In case you don't want to use `:LazyExtras`,
 -- then you need to set the option below.
 vim.g.lazyvim_picker = "telescope"
+
+-- Custom location of spell file
+vim.opt.spellfile = vim.fn.expand("~/work/spell/en.utf-8.add")
