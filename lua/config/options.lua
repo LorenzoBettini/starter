@@ -16,3 +16,6 @@ vim.g.lazyvim_picker = "telescope"
 
 -- Custom location of spell file
 vim.opt.spellfile = vim.fn.expand("~/work/spell/en.utf-8.add")
+
+-- vim.g.vimtex_view_method = "zathura_simple"
+vim.g.vimtex_view_method = "sioyek"
