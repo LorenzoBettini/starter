@@ -7,3 +7,5 @@ vim.keymap.set(
   require("telescope.builtin").resume,
   { noremap = true, silent = true, desc = "Resume" }
 )
+
+vim.keymap.set("x", "<leader>p", [["_dP]], { noremap = true, silent = true, desc = "Paste keeping yanked" })
