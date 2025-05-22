@@ -26,3 +26,12 @@
 --     end
 --   end,
 -- })
+
+-- Disable autoformat for bibtex files
+-- See https://www.lazyvim.org/configuration/tips
+vim.api.nvim_create_autocmd({ "FileType" }, {
+  pattern = { "bib" },
+  callback = function()
+    vim.b.autoformat = false
+  end,
+})
