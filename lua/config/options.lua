@@ -19,3 +19,6 @@ vim.opt.spellfile = vim.fn.expand("~/work/spell/en.utf-8.add")
 
 -- vim.g.vimtex_view_method = "zathura_simple"
 vim.g.vimtex_view_method = "sioyek"
+
+-- Enable line wrap
+vim.opt.wrap = true
