@@ -8,6 +8,7 @@ return {
       "dockerfile",
       "bibtex",
       "latex",
+      "properties",
     })
   end,
 }
