@@ -9,6 +9,7 @@ return {
       "bibtex",
       "latex",
       "properties",
+      "git_config",
     })
   end,
 }
