@@ -5,4 +5,5 @@ return {
   { "rebelot/kanagawa.nvim" },
   { "xero/miasma.nvim" },
   { "rose-pine/neovim" },
+  { "neanias/everforest-nvim" },
 }
