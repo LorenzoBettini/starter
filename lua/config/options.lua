@@ -22,3 +22,6 @@ vim.g.vimtex_view_method = "sioyek"
 
 -- Enable line wrap
 vim.opt.wrap = true
+
+-- Disable Copilot blink completions and use it through ghost text
+vim.g.ai_cmp = false
