@@ -11,7 +11,7 @@ return {
         accept_line = "<M-l>",
         next = "<a-]>",
         prev = "<a-[>",
-        dismiss = "<C-,>",
+        -- dismiss = "<C-,>", -- ESC
       },
     },
   },
