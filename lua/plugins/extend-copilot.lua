@@ -9,8 +9,8 @@ return {
         -- accept = "<C-.>", -- default in LazyVim is TAB
         accept_word = "<M-w>",
         accept_line = "<M-l>",
-        next = "<a-]>",
-        prev = "<a-[>",
+        next = "<M-]>",
+        prev = "<M-[>",
         -- dismiss = "<C-,>", -- ESC
       },
     },
