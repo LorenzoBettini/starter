@@ -15,4 +15,12 @@ return {
       background = "hard", -- "soft", "medium", "hard"
     },
   },
+  { "NLKNguyen/papercolor-theme", main = "papercolor", lazy = false },
+  { "webhooked/kanso.nvim" },
+  { "ribru17/bamboo.nvim" },
+  {
+    "uloco/bluloco.nvim",
+    lazy = false,
+    dependencies = { "rktjmp/lush.nvim" },
+  },
 }
