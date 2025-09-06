@@ -23,4 +23,17 @@ return {
     lazy = false,
     dependencies = { "rktjmp/lush.nvim" },
   },
+  {
+    -- customize tokyonight
+    "folke/tokyonight.nvim",
+    opts = {
+      style = "moon",
+      on_highlights = function(hl, _)
+        hl.LineNr = { fg = "#c0caf5" }
+        hl.LineNrAbove = { fg = "#c0caf5" }
+        hl.LineNrBelow = { fg = "#c0caf5" }
+        hl.CopilotSuggestion = { fg = "#7aa2f7", italic = true }
+      end,
+    },
+  },
 }
