@@ -10,6 +10,7 @@ return {
       "latex",
       "properties",
       "git_config",
+      "gitignore",
     })
   end,
 }
