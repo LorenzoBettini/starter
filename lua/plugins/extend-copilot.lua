@@ -14,5 +14,8 @@ return {
         -- dismiss = "<C-,>", -- ESC
       },
     },
+    filetypes = {
+      yaml = true,
+    },
   },
 }
