@@ -11,6 +11,8 @@ return {
       "properties",
       "git_config",
       "gitignore",
+      "gotmpl",
+      "toml",
     })
   end,
 }
