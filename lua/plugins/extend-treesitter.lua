@@ -12,6 +12,7 @@ return {
       "git_config",
       "gitignore",
       "gotmpl",
+      "ini",
       "toml",
     })
   end,
